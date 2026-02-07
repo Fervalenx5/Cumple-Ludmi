@@ -6,7 +6,7 @@ function countdown() {
   let diff = evento - now;
 
   if (diff <= 0) {
-    document.querySelector(".countdown").innerHTML = "🎉 ¡Es hoy!";
+    document.querySelector(".countdown").innerHTML = "💗 ¡Es hoy! 💗";
     return;
   }
 
@@ -75,4 +75,5 @@ function confirmar() {
   if (navigator.vibrate) navigator.vibrate(50);
   window.open("https://wa.me/54XXXXXXXXX");
 }
+
 
